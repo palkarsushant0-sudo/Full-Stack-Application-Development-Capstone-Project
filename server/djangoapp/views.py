@@ -28,11 +28,11 @@ def get_index(request):
 
 
 def about(request):
-    return render(request, "About.html")
+    return render(request, "about.html")
 
 
 def contact(request):
-    return render(request, "Contact.html")
+    return render(request, "contact.html")
 
 
 # ---------- Auth ----------
