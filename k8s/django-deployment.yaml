@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cars-dealership-django
+  labels:
+    app: cars-dealership-django
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: cars-dealership-django
+  template:
+    metadata:
+      labels:
+        app: cars-dealership-django
+    spec:
+      containers:
+        - name: django
+          image: us.icr.io/<your-namespace>/cars-dealership-django:latest
+          ports:
+            - containerPort: 8000
+          env:
+            - name: BACKEND_URL
+              value: "http://dealers-reviews-service:3030"
+            - name: SENTIMENT_ANALYZER_URL
+              value: "http://sentiment-analyzer-service:5050"
+            - name: DJANGO_DEBUG
+              value: "False"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: cars-dealership-django-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: cars-dealership-django
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8000

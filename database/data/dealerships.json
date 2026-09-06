@@ -1,0 +1,9 @@
+{
+  "dealerships": [
+    {"id": 1, "full_name": "Heartland Motors", "city": "Wichita", "address": "500 Main St", "zip": "67202", "state": "Kansas", "lat": 37.6872, "long": -97.3301},
+    {"id": 2, "full_name": "Sunflower Auto Group", "city": "Topeka", "address": "88 Capitol Ave", "zip": "66603", "state": "Kansas", "lat": 39.0473, "long": -95.6752},
+    {"id": 3, "full_name": "Golden Gate Motors", "city": "San Francisco", "address": "10 Market St", "zip": "94105", "state": "California", "lat": 37.7749, "long": -122.4194},
+    {"id": 4, "full_name": "Lone Star Auto", "city": "Austin", "address": "200 Congress Ave", "zip": "78701", "state": "Texas", "lat": 30.2672, "long": -97.7431},
+    {"id": 5, "full_name": "Empire Motor Sales", "city": "Albany", "address": "1 State St", "zip": "12207", "state": "New York", "lat": 42.6526, "long": -73.7562}
+  ]
+}

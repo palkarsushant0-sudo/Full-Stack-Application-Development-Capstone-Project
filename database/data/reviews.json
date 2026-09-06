@@ -1,0 +1,37 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Alex Turner",
+      "dealership": 1,
+      "review": "Fantastic services and a very friendly sales team. Highly recommend!",
+      "purchase": true,
+      "purchase_date": "2026-01-15",
+      "car_make": "Toyota",
+      "car_model": "Camry",
+      "car_year": 2025
+    },
+    {
+      "id": 2,
+      "name": "Jordan Lee",
+      "dealership": 1,
+      "review": "The process took longer than expected and communication was poor.",
+      "purchase": true,
+      "purchase_date": "2026-02-02",
+      "car_make": "Ford",
+      "car_model": "Escape",
+      "car_year": 2024
+    },
+    {
+      "id": 3,
+      "name": "Sam Patel",
+      "dealership": 3,
+      "review": "Decent selection, average pricing, nothing special either way.",
+      "purchase": false,
+      "purchase_date": "2026-03-10",
+      "car_make": "Honda",
+      "car_model": "Civic",
+      "car_year": 2023
+    }
+  ]
+}

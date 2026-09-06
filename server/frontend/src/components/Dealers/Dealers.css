@@ -1,0 +1,6 @@
+.dealers-page { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; font-family: "Segoe UI", Roboto, sans-serif; }
+.dealers-page h1 { color: #1b3a5c; }
+.dealers-table { width: 100%; border-collapse: collapse; margin-top: 1rem; background: white; }
+.dealers-table th, .dealers-table td { padding: 0.6rem 0.8rem; border-bottom: 1px solid #eee; text-align: left; }
+.dealers-table th { background: #1b3a5c; color: white; }
+.dealers-table a { color: #1b3a5c; font-weight: 600; }
